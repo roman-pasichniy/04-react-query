@@ -15,8 +15,6 @@ const ReactPaginate =
   ((ReactPaginateModule as unknown) as { default?: typeof ReactPaginateModule }).default ||
   ReactPaginateModule;
 
-console.log(typeof ReactPaginate); // Debugging line to check the type of ReactPaginate
-
 export default function App() {
   const [query, setQuery] = useState('');
   const [page, setPage] = useState(1);
